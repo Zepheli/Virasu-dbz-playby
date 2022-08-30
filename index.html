@@ -1,0 +1,143 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Sail&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Tapestry&display=swap" rel="stylesheet">
+
+
+<body style="background-image: url('https://get.wallhere.com/photo/sunlight-colorful-sea-abstract-reflection-green-blue-underwater-atmosphere-light-ocean-wave-line-1920x1200-px-computer-wallpaper-atmosphere-of-earth-wind-wave-Multi-Color-719260.jpg'); background-repeat: no-repeat; background-size: cover !important; margin:0;
+    flex-direction: row-reverse;display: -ms-flexbox;
+       
+       display: flex;
+       /* Center vertically */
+       align-items: center;
+       /*Center horizontaly */
+       justify-content: center;
+       /*Center horizontaly ie */
+       -ms-flex-pack: center;height:100vh;">
+
+<img id="pic" align=right src=https://cdn.myanimelist.net/images/characters/15/199019.jpg  style="margin-right:-200px;transition: 5s;">
+
+
+<center style="margin-top: auto;
+    margin-bottom: auto;">
+<div style="">
+<font color="#0000ff" style="font-family: 'Grenze Gotisch', cursive;font-size:80px;"><b>Virasu</b></font>
+ <br>
+
+ 
+<br>
+<div class="desc_text"style="
+    
+">
+<div>
+<img id="topF" align=center src=https://i.postimg.cc/WzwbpRyB/topFrame.png style="width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;">
+    </div>
+<p class="scrollable" style="font-family: 'Tapestry', cursive;font-size:20px;">
+One with a weird biology that gathers a lot of cold energy. The very release of their ki drops the temperature around them. Their crimson hues focus on you with an expressionless gaze
+<br>
+</p>
+<div>
+<img id="BottomF" align=center src=https://i.postimg.cc/sXFVpDCF/bottom-Frame.png style="width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;">
+    </div>
+</div>
+<br>
+</div>
+</center>
+
+
+<embed src=https://www.youtube.com/embed/e3s0nIjrCuU?autoplay=1 width=0 height=0 loop=true autostart=true>
+
+
+<script>
+
+$(document).ready(function(){
+
+$('#pic').hide();
+$('#topF').hide();
+$('#BottomF').hide();
+$('font').hide();
+
+$('#pic').animate({"margin-right": '+=200'}, 1000);
+$('#pic').fadeTo(3000, 1.0);
+$('#topF').fadeTo(7000, 1.0);
+$('#BottomF').fadeTo(7000, 1.0);
+$('font').fadeTo(3000, 1.0);
+$(".desc_text").hover(function(){
+    $(this).find('p').animate({"height": '200'}, 500);
+    }, function(){
+    $(this).find('p').animate({"height": '100'}, 500);
+  });
+
+
+});
+
+</script>
+
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; 
+}
+p{
+	display: inline-block;
+    opacity: 1;
+    max-height: 200px;
+    height: 100px;
+    overflow: auto;
+    width: 40%;
+    color: #0000ff;
+    text-align: left;
+    transition: 1s;
+    background-color: #00cc99;
+}
+p:hover{
+	
+}
+/*IE*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+.scrollable {
+        
+
+        /* ie scrollbar color properties */
+        scrollbar-base-color: #ffffff;
+        scrollbar-face-color: #ffffff;
+        scrollbar-3dlight-color: #ffffff;
+        scrollbar-highlight-color: #ffffff;
+        scrollbar-track-color: #00cc99;
+        scrollbar-arrow-color: #ffffff;
+        scrollbar-shadow-color: #ffffff;
+        scrollbar-dark-shadow-color: #ffffff;
+        
+        
+  }
+  
+    
+    
+}
+</style>
